@@ -1,0 +1,19 @@
+project_id = "xrbgurzhyeiowhszenhu"
+
+[functions.register]
+verify_jwt = false
+
+[functions.exit-attendance]
+verify_jwt = false
+
+[functions.admin-login]
+verify_jwt = false
+
+[functions.admin-event]
+verify_jwt = false
+
+[functions.admin-stats]
+verify_jwt = false
+
+[functions.admin-export]
+verify_jwt = false
