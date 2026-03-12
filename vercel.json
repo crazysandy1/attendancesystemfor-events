@@ -7,13 +7,11 @@
   "trailingSlash": false,
   "routes": [
     {
-      "src": "^/(?!api/|_next/|static/|public/|manifest\\.json|favicon\\.ico|logo\\.jpeg).*",
-      "dest": "/index.html",
-      "methods": ["GET", "HEAD"]
+      "handle": "filesystem"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/.*",
+      "dest": "/index.html"
     }
   ]
 }
